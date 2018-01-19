@@ -21,7 +21,7 @@ function showTime(){
    	h = h -12
    }
 
-   document.getElementById('hours').innerHTML = h + '  :'
+   document.getElementById('hours').innerHTML = h + ' :'
    document.getElementById('min').innerHTML = m + ' :  '
    document.getElementById('sec').innerHTML = s
    document.body.style.background = bgc
